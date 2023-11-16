@@ -28,6 +28,8 @@ import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
 
+import { Typewriter } from './Typewriter'
+
 // -----------------------------------------------------------------------------
 // dynamic imports for optional components
 // -----------------------------------------------------------------------------
@@ -281,6 +283,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
+      <Typewriter />
       {/* <GitHubShareButton /> */}
     </>
   )
